@@ -1,0 +1,43 @@
+.wrapper{
+    width:90%;
+    background: #fff;
+    margin: 0px auto;
+    padding:100px;
+  }
+
+#tbstyle {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tbstyle td, #tbstyle th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tbstyle tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #tbstyle tr:hover {background-color: #ddd;}
+  
+  #tbstyle th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:rgb(15, 140, 190);
+    color: white;
+  }
+  .btn-delete{
+    background-color: red;
+    border:none;
+    padding:5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .btn-edit{
+    background-color: rgb(40, 153, 197);
+    border:none;
+    padding:5px;
+    color: #fff;
+    cursor: pointer;
+  }
